@@ -1,0 +1,31 @@
+[0m19:30:58.767544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74262883a910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x742628ad02d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7426288291d0>]}
+
+
+============================== 19:30:58.772158 | 9c218a80-f25b-4e9c-84b0-c55d13f76d58 ==============================
+[0m19:30:58.772158 [info ] [MainThread]: Running with dbt=1.10.17
+[0m19:30:58.772869 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'quiet': 'False', 'warn_error': 'None', 'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'target_path': 'None', 'use_experimental_parser': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/sctp/.dbt', 'empty': 'None', 'invocation_command': 'dbt init dbt_hdb_resale', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'log_format': 'default', 'write_json': 'True', 'introspect': 'True', 'partial_parse': 'True', 'debug': 'False'}
+[0m19:30:58.797611 [info ] [MainThread]: Creating dbt configuration folder at /home/sctp/.dbt
+[0m19:30:58.799816 [debug] [MainThread]: Starter project path: /home/sctp/miniconda3/envs/hdb-dagster/lib/python3.11/site-packages/dbt/include/starter_project
+[0m19:30:58.808505 [info ] [MainThread]: 
+Your new dbt project "dbt_hdb_resale" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:30:58.809315 [info ] [MainThread]: Setting up your profile.
+[0m19:32:03.068572 [info ] [MainThread]: Profile dbt_hdb_resale written to /home/sctp/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:32:03.070099 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 64.368065, "process_in_blocks": "418944", "process_kernel_time": 1.173682, "process_mem_max_rss": "394492", "process_out_blocks": "104", "process_user_time": 3.692818}
+[0m19:32:03.071084 [debug] [MainThread]: Command `dbt init` succeeded at 19:32:03.070905 after 64.37 seconds
+[0m19:32:03.071615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7426286c7e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7426286b2e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74262d1527d0>]}
+[0m19:32:03.072129 [debug] [MainThread]: Flushing usage events
+[0m19:32:04.149717 [debug] [MainThread]: An error was encountered while trying to flush usage events
