@@ -513,6 +513,27 @@ sources:
 
 ## Github Action
 
+### Github Secrets
+
+We need to use Github Secrets to store our password in productions. To add Github Secrets, On the repository, select `Settings` 
+
+![alt text](./assets/repo_settings.png)
+
+Select `Secrets and Variables`
+
+
+![alt text](./assets/repo_secrets.png)
+
+
+Select `Actions`
+
+![alt text](./assets/repo_action_secrets.png)
+
+Add your password and other important variables.
+
+> For service key, please copy and paste entire json
+
+### Github Action template
 ```yml
 name: HDB Resale E2E Dagster 
 
