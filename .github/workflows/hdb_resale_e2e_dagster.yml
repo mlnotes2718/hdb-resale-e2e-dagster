@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./hdb_resale_e2e_dagster
+        working-directory: ./
 
     # Set environment variables for the entire job
     env:
