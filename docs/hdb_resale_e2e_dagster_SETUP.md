@@ -550,7 +550,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./hdb_resale_e2e_dagster
+        working-directory: ./
 
     # Set environment variables for the entire job
     env:
@@ -572,7 +572,7 @@ jobs:
         uses: conda-incubator/setup-miniconda@v3
         with:
           activate-environment: dagster
-          environment-file: ./hdb_resale_e2e_dagster/dagster-environment.yml
+          environment-file: ./dagster-environment.yml
 
       - name: Write BigQuery Service Account Key to File
         run: echo "$BIGQUERY_SERVICE_ACCOUNT_KEY" > /tmp/bq-key.json
